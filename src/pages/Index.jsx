@@ -21,7 +21,7 @@ const Index = () => {
     setInputValue("");
 
     // Here you would typically send the message to your backend or API
-    // For demonstration, we simulate a bot response
+
     setTimeout(() => {
       setMessages((messages) => [...messages, { text: "This is a simulated response.", sender: "bot" }]);
     }, 1000);
